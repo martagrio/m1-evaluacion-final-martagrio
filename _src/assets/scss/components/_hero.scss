@@ -1,12 +1,12 @@
 .hero__box {
     background: url("../images/cover.jpg") center bottom no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     color: $color--white;
 }
 
 .hero__box .container {
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,25 +14,8 @@
     text-align: center;
 }
 
-.hero--arrow {
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-    background-color: $color--white;
-    padding: 15.3px 12.5px;
-    box-sizing: border-box;
-    margin-top: 45px;
-    margin-bottom: 53px;
-    @media all and (min-width: 768px) {
-        margin-top: 30px;
-    }
-    @media all and (min-width: 1280px) {
-        margin-bottom: 13px;
-    }
-}
-
 .hero--text {
-    transform: translateY(50vh);
+    margin-top: 50vh;
 }
 
 .hero--title {
@@ -63,5 +46,22 @@
     }
     @media all and (min-width: 1280px) {
         padding-top: 0;
+    }
+}
+
+.hero--arrow {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: $color--white;
+    padding: 15.3px 12.5px;
+    box-sizing: border-box;
+    margin-top: 45px;
+    margin-bottom: 53px;
+    @media all and (min-width: 768px) {
+        margin-top: 30px;
+    }
+    @media all and (min-width: 1280px) {
+        margin-bottom: 13px;
     }
 }
