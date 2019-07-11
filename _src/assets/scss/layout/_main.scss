@@ -1,5 +1,4 @@
 .main__box {
-    height: 100vh;
     background-color: $color--white;
 }
 
@@ -17,4 +16,29 @@
     margin-top: 15px;
     margin-bottom: 30px;
     color: $color--greyish-brown;
+}
+
+.reasons__box {
+    margin-top: 45px;
+    background-color: $color--ice-blue;
+    text-align: center;
+    color: $color--black;
+}
+
+.reasons--title {
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+
+.reasons--articles-title {
+    margin-top: 45px;
+    &::first-letter {
+        text-transform: capitalize;
+    }
+}
+
+.reasons--text {
+    &::first-letter {
+        text-transform: capitalize;
+    }
 }

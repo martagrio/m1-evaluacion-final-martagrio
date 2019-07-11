@@ -5,3 +5,17 @@
     width: 44px;
     border: 0px;
 }
+
+.reasons__button {
+    border: none;
+    border-radius: 22.5px;
+    padding: 0 30px;
+    margin: 45px 0 60px;
+    width: 184px;
+    height: 45px;
+    background-color: $color--bright-orange;
+    color: $color--white;
+    &::first-letter {
+        text-transform: capitalize;
+    }
+}
