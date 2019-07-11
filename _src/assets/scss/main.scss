@@ -2,8 +2,7 @@
 @import 'core/settings';
 @import 'core/links';
 @import 'layout/container';
+@import 'layout/header';
+@import 'layout/main';
 @import 'components/buttons';
-body {
-    margin: 0;
-    background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-}
+@import 'components/hero';
