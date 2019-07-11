@@ -1,11 +1,25 @@
 .tips--link {
     text-decoration: none;
-    display: block;
+    color: $color--bright-orange;
+    text-align: center;
+}
+
+.tips--link div {
     float: left;
+    display: flex;
+    align-items: center;
+    height: 45px;
     padding: 0 25px;
+    margin-bottom: 45px;
     border-radius: 22.5px;
     font-size: 20px;
     color: $color--bright-orange;
     border: 2px solid $color--bright-orange;
-    margin-bottom: 45px;
+    @media all and (min-width: 768px) {
+        margin-bottom: 60px;
+        padding: 0 33px;
+    }
+    @media all and (min-width: 1280px) {
+        padding: 0 67px;
+    }
 }
