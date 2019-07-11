@@ -1,5 +1,6 @@
 .hero__box {
     background: url("../images/cover.jpg") center bottom no-repeat;
+    background-size: cover;
     height: 100vh;
     color: $color--white;
 }
@@ -9,7 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -24,7 +25,7 @@
 }
 
 .hero--text {
-    transform: translateY(-50%);
+    transform: translateY(360%);
 }
 
 .hero--title {
