@@ -3,15 +3,14 @@
     background-size: cover;
     height: 100%;
     color: $color--white;
-}
-
-.hero__box .container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
+    & .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
 }
 
 .hero--text {
