@@ -1,0 +1,27 @@
+.footer__box {
+    height: auto;
+    color: $color--white;
+    background-color: $color--dark-grey-blue;
+    text-align: center;
+}
+
+.li--item {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.link--item {
+    color: $color--white;
+    text-decoration: none;
+}
+
+.footer__arrow {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: $color--white;
+    box-sizing: border-box;
+    margin: 0 38px;
+    @media all and (min-width: 768px) {}
+    @media all and (min-width: 1280px) {}
+}
