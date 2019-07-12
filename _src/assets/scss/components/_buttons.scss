@@ -19,7 +19,11 @@
     height: 45px;
     background-color: $color--bright-orange;
     color: $color--white;
+    transition: transform ease .4s;
     &::first-letter {
         text-transform: capitalize;
+    }
+    &:hover {
+        transform: rotate(360deg);
     }
 }
