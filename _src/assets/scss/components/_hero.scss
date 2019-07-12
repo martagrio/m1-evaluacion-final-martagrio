@@ -13,12 +13,14 @@
 }
 
 .hero--text {
-    background-color: yelloW;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin-top: 50vh;
     @media all and (min-width: 768px) {
         font-size: 24px;
+    }
+    @media all and (min-width: 768px) {
+        margin-top: 35vh;
     }
 }
 
@@ -47,7 +49,6 @@
     @media all and (min-width: 768px) {
         font-size: 24px;
     }
-    @media all and (min-width: 1280px) {}
 }
 
 .hero--arrow {
@@ -55,9 +56,12 @@
     width: 45px;
     border-radius: 50%;
     background-color: $color--white;
-    padding: 17px 13px 15.3px 12px;
+    padding: 15.3px 12.5px;
     box-sizing: border-box;
-    margin-bottom: 13px 0 53px;
+    margin-bottom: 53px;
+    @media all and (min-width: 768px) {
+        margin-bottom: 45px;
+    }
     @media all and (min-width: 1280px) {
         margin-bottom: 13px;
     }
