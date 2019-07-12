@@ -46,6 +46,9 @@
     background-color: $color--ice-blue;
     text-align: center;
     color: $color--black;
+    .container {
+        text-align: center;
+    }
 }
 
 .reasons--title {
@@ -87,4 +90,8 @@
     @media all and (min-width: 768px) {
         font-size: 20px;
     }
+}
+
+.reasons--li {
+    list-style: none;
 }
