@@ -3,19 +3,42 @@
 }
 
 .tips--small {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     margin-top: 30px;
     margin-bottom: 1px;
     color: $color--lightblue;
+    @media all and (mid-width: 1280px) {
+        font-size: 16px;
+    }
 }
 
 .tips--title {
     color: $color--black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    line-height: 30px;
+    @media all and (min-width: 768px) {
+        line-height: 45px;
+        font-size: 26px;
+    }
+    @media all and (min-width: 1280px) {
+        font-size: 32px;
+    }
 }
 
 .tips--text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
     margin-top: 15px;
     margin-bottom: 30px;
     color: $color--greyish-brown;
+    @media all and (min-width: 768px) {
+        font-size: 20px;
+    }
 }
 
 .reasons__box {
@@ -28,17 +51,40 @@
 .reasons--title {
     padding-top: 30px;
     text-transform: capitalize;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    line-height: 30px;
+    @media all and (min-width: 768px) {
+        line-height: 45px;
+        font-size: 26px;
+    }
+    @media all and (min-width: 1280px) {
+        font-size: 32px;
+    }
 }
 
 .reasons--articles-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    line-height: 30px;
     margin-top: 45px;
     &::first-letter {
         text-transform: capitalize;
     }
+    @media all and (min-width: 768px) {
+        font-size: 24px;
+    }
 }
 
 .reasons--text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
     &::first-letter {
         text-transform: capitalize;
+    }
+    @media all and (min-width: 768px) {
+        font-size: 20px;
     }
 }
