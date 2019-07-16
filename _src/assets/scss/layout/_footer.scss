@@ -1,7 +1,7 @@
     .footer__box {
         width: 100%;
-        color: $color--white;
-        background-color: $color--dark-grey-blue;
+        color: $color--black;
+        background-color: $color--bright-orange;
         text-align: center;
         font-family: Roboto;
         font-size: 16px;
@@ -15,7 +15,7 @@
     }
     
     .link--item {
-        color: $color--white;
+        color: $color--black;
         text-decoration: none;
     }
     
@@ -39,14 +39,23 @@
     }
     
     .menu__rrss {
-        padding: 30px 0;
+        margin: 30px 0;
+        @media all and (max-width: 767px) {
+            margin: 50px 0;
+        }
     }
     
     .copy-love {
+        display: flex;
+        flex-direction: column;
         padding-bottom: 45px;
         @media all and (min-width: 768px) {
             order: -1;
         }
+    }
+    
+    .love {
+        order: -1;
     }
     
     .footer__content {
@@ -61,5 +70,11 @@
             .copy-love {
                 padding: 0;
             }
+        }
+    }
+    
+    .heart {
+        @media all and (min-width: 768px) {
+            color: $color--white;
         }
     }
