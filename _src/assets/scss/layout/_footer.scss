@@ -54,10 +54,6 @@
         }
     }
     
-    .love {
-        order: -1;
-    }
-    
     .footer__content {
         text-align: center;
         @media all and (min-width: 768px) {
@@ -74,7 +70,5 @@
     }
     
     .heart {
-        @media all and (min-width: 768px) {
-            color: $color--bright-orange;
-        }
+        color: $color--bright-orange;
     }
