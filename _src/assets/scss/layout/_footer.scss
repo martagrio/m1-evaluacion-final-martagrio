@@ -1,7 +1,7 @@
     .footer__box {
         width: 100%;
-        color: $color--black;
-        background-color: $color--bright-orange;
+        color: $color--white;
+        background-color: $color--dark-grey-blue;
         text-align: center;
         font-family: Roboto;
         font-size: 16px;
@@ -75,6 +75,6 @@
     
     .heart {
         @media all and (min-width: 768px) {
-            color: $color--white;
+            color: $color--bright-orange;
         }
     }
