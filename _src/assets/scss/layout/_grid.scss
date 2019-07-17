@@ -5,15 +5,6 @@
         grid-template-rows: auto;
         grid-column-gap: 30px;
     }
-    .reasons__grid-1 {
-        grid-column: 1/span 1;
-    }
-    .reasons__grid-2 {
-        grid-column: 2/span 1;
-    }
-    .reasons__grid-3 {
-        grid-column: 3/span 1;
-    }
 }
 
 @media all and (min-width: 1280px) {
