@@ -3,7 +3,8 @@
         color: $color--white;
         background-color: $color--dark-grey-blue;
         text-align: center;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
         font-size: 16px;
         line-height: 30px;
         position: relative;
@@ -15,7 +16,7 @@
     }
     
     .link--item {
-        color: $color--black;
+        color: $color--white;
         text-decoration: none;
     }
     
@@ -30,8 +31,6 @@
         border-radius: 50%;
         background-color: $color--white;
         transform: translate(50%, -50%);
-        @media all and (min-width: 768px) {}
-        @media all and (min-width: 1280px) {}
     }
     
     .menu__web {
@@ -39,9 +38,8 @@
     }
     
     .menu__rrss {
-        margin: 30px 0;
         @media all and (max-width: 767px) {
-            margin: 50px 0;
+            margin: 30px 0;
         }
     }
     
